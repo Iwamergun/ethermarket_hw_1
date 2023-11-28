@@ -1,4 +1,7 @@
+
 import { Providers } from './providers'
+import { Navbar } from '../components/layouts/Navbar'
+
 
 export const metadata = {
   title: 'wagmi',
@@ -12,7 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Navbar />
+          {children}
+         </Providers>
       </body>
     </html>
   )
