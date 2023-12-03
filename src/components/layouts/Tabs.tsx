@@ -6,8 +6,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import RecipeReviewCard from "../Cards";
-import { Grid } from "@mui/material";
-import { wrap } from "module";
+import ShopIcon from '@mui/icons-material/Shop';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -27,22 +26,23 @@ const cards: { [key: string]: any } = {
   "Gods Unchained": {
     image: "/godsunchained.png",
     desc: "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    
   },
 
   Item1: {
-    image: "/kart1.webp",
+    image: "/godsunchained.png",
     desc: "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   Item2: {
-    image: "/kart1.webp",
+    image: "/godsunchained.png",
     desc: "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   Item3: {
-    image: "/kart1.webp",
+    image: "/godsunchained.png",
     desc: "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   Item4: {
-    image: "/kart1.webp",
+    image: "/godsunchained.png",
     desc: "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 };

@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 import { Account } from '../../components/Account'
 import { Balance } from '../../components/Balance'
 import { BlockNumber } from '../../components/BlockNumber'
@@ -19,8 +19,10 @@ import { WriteContract } from '../../components/WriteContract'
 import { WriteContractPrepared } from '../../components/WriteContractPrepared'
 
 
+
 export default function Profile() {
-  return (
+  return (  
+
     <div>
       <Connect />
       <Connected>
